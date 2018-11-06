@@ -1,0 +1,6 @@
+
+@mixin mx-botao($p_fontsize: 10px){
+    border-radius: 2px;
+    border-color: red;
+    font-size: $p_fontsize + $b;
+}
