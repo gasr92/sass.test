@@ -6,12 +6,20 @@
 
     table{
         margin: 10px;
-    }
+
+        // @media(max-width: 500px){
+        //     margin:6px;
+        // }
+
+        @media #{$mq_prop_e_valor}{
+            margin:6px;
+        }
+   }
 }
 
 .x{
     font-size: $a;
-    @include mx-botao();
+    @include mx-botao(14.8);
 
     &:hover{
         @extend %font_blue_bold_with_border;

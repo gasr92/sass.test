@@ -11,12 +11,17 @@
 .fn_multiplos table {
   margin: 10px;
 }
+@media (max-width: 60px) {
+  .fn_multiplos table {
+    margin: 6px;
+  }
+}
 
 .x {
   font-size: 2;
   border-radius: 2px;
   border-color: red;
-  font-size: 30px;
+  font-size: 35px;
 }
 /*can use the keywords ODD or EVEN*/
 #lista-teste li:nth-of-type(2n-1) {
